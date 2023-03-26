@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { GlobalData } from "../../App";
 import "./moviecard.css";
 
+
 const Moviecard = ({ allMovies }) => {
+const context = useContext(GlobalData)
+
   // console.log(allMovies);
   return (
     <>

@@ -24,6 +24,8 @@ const MovieList = () => {
               ? context.topRatedMoviesFromApi
               : category === "upcoming"
               ? context.upcomingMoviesFromApi
+              : context.data.length !== 0
+              ? [...context.data]
               : [
                   ...context.popularMoviesFromApi,
                   ...context.topRatedMoviesFromApi,

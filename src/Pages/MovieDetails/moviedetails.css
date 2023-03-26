@@ -1,25 +1,13 @@
 .movieDetailsContainer{
-    border: 2px solid green;
-    height: 92%;
+    /* height: 92%; */
     width: 100%;
     position: relative;
+    
 }
 
 .movieImageContainer{
     height: 100%;
     width: 100%;
-    display: flex;
-}
-
-.movieImageContainer img{
-    height: 100%;
-    width: 100%;
-}
-
-.movieFullDetails{
-    position: absolute;
-    bottom: 0;
-    padding: 1.5rem;
     display: flex;
     flex-direction: column;
 }
@@ -27,9 +15,25 @@
 .lastImageContsiner{
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.468);
+    background-color: rgba(0, 0, 0, 0.619);
     position: absolute;
 }
+
+.movieImageContainer img{
+    height: 600px;
+    width: 100%;
+}
+
+.movieFullDetails{
+    /* position: absolute; */
+    /* bottom: 0; */
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+
 
 .movieTitle{
     font-size: 3rem;
@@ -45,4 +49,31 @@
 
 p span{
     color: lightcyan;
+}
+
+.finalTrial{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    bottom: -15rem;
+    gap: 10rem;
+    padding: 0 5rem;
+    height: 500px;
+}
+
+.trial{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    /* position: absolute; */
+    /* top: 0; */
+    border-radius: 5px 20px 5px;
+    border: 2px solid lightgreen;
+}
+
+.trial img{
+    height: 100%;
+    width: 100%;
+    /* box-shadow: 0 4px 3px 10px green */
+    box-shadow: 0.5rem 0.5rem red, -0.5rem -0.5rem #ccc;
 }

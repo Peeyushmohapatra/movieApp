@@ -15,6 +15,8 @@ function App() {
   const [popularMoviesFromApi, setPopularMoviesFromApi] = useState([]);
   const [upcomingMoviesFromApi, setUpcomingMoviesFromApi] = useState([]);
   const [topRatedMoviesFromApi, settopRatedMoviesFromApi] = useState([]);
+  const [data, setData] = useState([]);
+
   useEffect(() => {
     apiFetch(setPopularMoviesFromApi, "popular");
     apiFetch(settopRatedMoviesFromApi, "top_rated");
@@ -27,6 +29,7 @@ function App() {
         popularMoviesFromApi: popularMoviesFromApi,
         upcomingMoviesFromApi: upcomingMoviesFromApi,
         topRatedMoviesFromApi: topRatedMoviesFromApi,
+        data, setData
       }}
     >
       <div className="App">

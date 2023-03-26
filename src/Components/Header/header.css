@@ -42,10 +42,9 @@
 }
 
 .inputContainer input{
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
+    border-radius: 15px;
     height: 60%;
-    width: 70%;
+    width: 100%;
     padding-left: 10px;
     border: none;
 }
