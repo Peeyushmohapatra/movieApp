@@ -1,0 +1,48 @@
+.movieDetailsContainer{
+    border: 2px solid green;
+    height: 92%;
+    width: 100%;
+    position: relative;
+}
+
+.movieImageContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.movieImageContainer img{
+    height: 100%;
+    width: 100%;
+}
+
+.movieFullDetails{
+    position: absolute;
+    bottom: 0;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.lastImageContsiner{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.468);
+    position: absolute;
+}
+
+.movieTitle{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(13,154,252);
+}
+
+.movieFullDetails p {
+    font-size: 1rem;
+    font-weight:700;
+    color: gray;
+}
+
+p span{
+    color: lightcyan;
+}

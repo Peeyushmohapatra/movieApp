@@ -1,0 +1,77 @@
+.home{
+  width: 100%;
+  background-color: black;
+}
+
+.carousel-root {
+  height: 600px;
+  width: 100%;
+}
+
+.carousel-slider {
+  height: 100%;
+  width: 100%;
+}
+
+.posterImage {
+  height: 600px;
+  width: 100%;
+  display: flex;
+}
+
+.mainPosterImage {
+  height: 100%;
+  width: 100%;
+}
+
+.posterImage_overlay {
+  position: absolute;
+  padding: 1rem;
+  bottom: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.6),
+    rgb(0, 0, 1)
+  );
+  /* opacity: .5; */
+  /* transition: opacity .5s; */
+  /* background: rgba(0, 0, 0, 0.6); */
+}
+
+.control-dots{
+    display: none;
+}
+
+.posterImage_overlay:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.495);
+}
+
+.posterImage_title {
+  font-weight: 900;
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.posterImage_releasingDate_rating {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.posterImageDescription {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  display: flex;
+  text-align: left;
+  width: 60%;
+}
