@@ -4,3 +4,17 @@
   overflow-x: hidden;
   background-color: black;
 }
+
+.App::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+.App::-webkit-scrollbar-track {
+  background: black;        /* color of the tracking area */
+}
+
+.App::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid black;  /* creates padding around scroll thumb */
+}
